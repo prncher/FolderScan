@@ -1,0 +1,35 @@
+{
+  "name": "folderscan",
+  "version": "1.0.0",
+  "description": "A javascript app to scan folders using async/await",
+  "repository": {
+    "type": "git",
+    "url": "github.com/prncher/FolderScan"
+  },
+  "dependencies": {
+    "folderscan": "^1.0.0",
+    "babel-polyfill": "^6.26.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "eslint": "^5.12.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf dist && babel src --out-dir dist --copy-files",
+    "start": "node dist/test.js",
+    "debug": "node --inspect-brk dist/test.js"
+  },
+  "keywords": [
+    "nodejs",
+    "javascript",
+    "Async/Await/Promisify"
+  ],
+  "author": {
+    "name": "Prince Cheruvatur",
+    "email": "prncher@gmail.com"
+  },
+  "license": "MIT"
+}
